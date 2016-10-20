@@ -1,0 +1,3 @@
+﻿<Properties StartupItem="ExamensApp\ExamensApp.csproj">
+  <MonoDevelop.Ide.ItemProperties.ExamensApp AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

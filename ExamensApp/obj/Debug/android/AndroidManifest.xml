@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.examensapp">
+  <uses-sdk android:minSdkVersion="16" />
+  <application android:label="ExamensApp" android:name="mono.android.app.Application" android:debuggable="true">
+    <activity android:icon="@drawable/icon" android:label="Knappryck" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:name="md5d112dfcc5ee6224f96289000c6b24840.MainActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:label="GameActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:name="md5d112dfcc5ee6224f96289000c6b24840.GameActivity" />
+    <activity android:label="GameOverActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar" android:name="md5d112dfcc5ee6224f96289000c6b24840.GameOverActivity" />
+    <activity android:label="HighScoreActivity" android:name="md5d112dfcc5ee6224f96289000c6b24840.HighScoreActivity" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.companyname.examensapp.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.com.companyname.examensapp" />
+      </intent-filter>
+    </receiver>
+  </application>
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+</manifest>

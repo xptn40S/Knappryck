@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <Button
+        android:id="@+id/Game_PauseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Game_PauseButton"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:padding="6dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/menubuttonstyle" />
+    <TextView
+        android:id="@+id/Game_PauseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Game_PauseText"
+        android:textSize="30dp"
+        android:textColor="@android:color/black"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+    <ImageView
+        android:id="@+id/Game_CurrentColor"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:background="@drawable/color0white"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/Game_StrikeSpace2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/strikespace"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Game_CurrentColor" />
+    <ImageView
+        android:id="@+id/Game_StrikeSpace1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/strikespace"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Game_CurrentColor"
+        android:layout_toLeftOf="@id/Game_StrikeSpace2"
+        android:layout_marginRight="10dp" />
+    <ImageView
+        android:id="@+id/Game_StrikeSpace3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/strikespace"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Game_CurrentColor"
+        android:layout_toRightOf="@id/Game_StrikeSpace2"
+        android:layout_marginLeft="10dp" />
+    <TextView
+        android:id="@+id/Game_TimerText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Game_Timer"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/Game_CurrentColor" />
+    <TextView
+        android:id="@+id/Game_ScoreText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/Game_Score"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/Game_TimerText"
+        android:layout_toRightOf="@id/Game_CurrentColor" />
+    <TableLayout
+        android:id="@+id/Game_Table"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="100"
+        android:layout_margin="10dp"
+        android:background="@drawable/gamebackground"
+        android:layout_below="@id/Game_StrikeSpace2" />
+</RelativeLayout>

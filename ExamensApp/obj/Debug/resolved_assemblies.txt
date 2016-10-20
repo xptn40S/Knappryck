@@ -1,0 +1,7 @@
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\ExamensApp.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\Mono.Android.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\mscorlib.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\SQLite.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\System.Core.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\System.dll
+C:\Users\IT-Hogskolan2012\Desktop\ExamensApp\ExamensApp\obj\Debug\assemblies\System.Xml.dll

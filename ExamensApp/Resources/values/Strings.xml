@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="Main_Header">Knappryck</string>
+	<string name="Main_StartButton">Starta</string>
+	<string name="Main_HighScoreButton">High-Score</string>
+	<string name="Main_BottomText">Av: Philip Stjernström - ITHS 2015</string>
+
+	<string name="Game_Timer">Tid: Laddar...</string>
+	<string name="Game_Score">Poäng: 0</string>
+	<string name="Game_PauseButton">Pausa</string>
+	<string name="Game_PauseText">Pausat</string>
+
+	<string name="GameOver_Header">Game Over</string>
+	<string name="GameOver_ScoreHeader">Slutpoäng:</string>
+	<string name="GameOver_ReplayButton">Spela igen</string>
+	<string name="GameOver_NameButton">Spara</string>
+	<string name="GameOver_QuitButton">Meny</string>
+
+	<string name="Highscore_Header">Highscores</string>
+	<string name="Highscore_BackButton">Till Menyn</string>
+</resources>

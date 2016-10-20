@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/Main_Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/Main_Header"
+        android:textSize="40dp"
+        android:textColor="@android:color/holo_blue_dark" />
+    <Button
+        android:id="@+id/Main_StartButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="6dp"
+        android:text="@string/Main_StartButton"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/menubuttonstyle"
+        android:layout_centerVertical="true" />
+    <Button
+        android:id="@+id/Main_HighScoreButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:padding="6dp"
+        android:text="@string/Main_HighScoreButton"
+        android:textSize="30dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/MenuButtonStyle"
+        android:layout_below="@id/Main_StartButton" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="@string/Main_BottomText"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white">
+    <TextView
+        android:id="@+id/GameOver_Header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/GameOver_Header"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/GameOver_ScoreHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/GameOver_ScoreHeader"
+        android:textSize="20dp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/GameOver_Header" />
+    <TextView
+        android:id="@+id/GameOver_Score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0p"
+        android:textSize="25dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/GameOver_ScoreHeader" />
+    <EditText
+        android:id="@+id/GameOver_EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:singleLine="true"
+        android:layout_below="@id/GameOver_Score" />
+    <Button
+        android:id="@+id/GameOver_NameButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/GameOver_NameButton"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/menubuttonstyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="6dp"
+        android:layout_below="@id/GameOver_EditText" />
+    <Button
+        android:id="@+id/GameOver_QuitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/GameOver_QuitButton"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/menubuttonstyle"
+        android:layout_alignParentBottom="true" />
+    <Button
+        android:id="@+id/GameOver_ReplayButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/GameOver_ReplayButton"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/menubuttonstyle"
+        android:layout_above="@id/GameOver_QuitButton" />
+</RelativeLayout>
